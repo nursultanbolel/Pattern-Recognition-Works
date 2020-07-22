@@ -15,6 +15,6 @@ Fundamental operations about image processing like dominanting green,hue,value c
  
 ## HW-2
 I used KNN algorithm to classify images from Cifar-10 dataset. There are four basic steps:<br>
-Step 1: Download the Cifar-10 dataset python version.
-Step 2: Convert images to vector format, all images(32*32*3) are converted to 1*3072 vectors.
-Step 3: Split the dataset 
+Step 1: Download the Cifar-10 dataset python version.<br>
+Step 2: Convert images to vector format, all images(32*32*3) are converted to 1*3072 vectors.<br>
+Step 3: Split the dataset <br>
