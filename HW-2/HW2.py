@@ -10,8 +10,8 @@ x_test = x_test.reshape(-1, 3072)
 
 
 
-x_train = x_train[1:1000, :]
-y_train = y_train[1:1000, :]
+x_train = x_train[1:50000, :]
+y_train = y_train[1:50000, :]
 
 
 import math 
@@ -36,7 +36,6 @@ def cosine_similarity(v1,v2):
     
     return sumxy/math.sqrt(sumxx*sumyy)
 
-from collections import Counter
 def knnClassifier(x_train, y_train, sample_test, k ):
 #''' This function is used to classify sample_test using KNN algorithm and cifar data set.
 #Cosine similarity is used for distance.
