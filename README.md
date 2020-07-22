@@ -1,4 +1,4 @@
-Convert images to vector format# Pattern-Recognition-Works
+# Pattern-Recognition-Works
 includes basic pattern recognition works
 
 All homeworks directory include description which is .pdf file.
@@ -14,7 +14,13 @@ Fundamental operations about image processing like dominanting green,hue,value c
  ![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Homeworks/blob/master/HW-1/savedCatImage.jpg)
  
 ## HW-2
-I used KNN algorithm to classify images from Cifar-10 dataset. There are four basic steps:<br>
+I used KNN algorithm and cosine similarity distance to classify images from Cifar-10 dataset. There are four basic steps:<br>
 Step 1: Download the Cifar-10 dataset python version.<br>
 Step 2: Convert images to vector format, all images(32*32*3) are converted to 1*3072 vectors.<br>
-Step 3: Split the dataset <br>
+Step 3: Split the dataset(train: 50.000 lines, test: 10.000 lines)<br>
+Step 4: Use cosine similarity distance to compute similarity
+
+You can see the most similar class name on console screen.
+
+## HW-3
+
