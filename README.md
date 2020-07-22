@@ -23,4 +23,12 @@ Step 4: Use cosine similarity distance to compute similarity
 You can see the most similar class name on console screen.
 
 ## HW-3
+I used Maholanabis distance in place of Bayes Classifier to classify images from Cifar-10 dataset.<br>
+The dataset includes 10 classes and each class has 5000 lines.<br>
+I assumed that class probabilities are equal. p(w0)=p(w1)=,...,=p(w9) <br> 
+According to the Bayes Rule, I calculated the distances of given test sample in order to check whether belongs or not to a specific class. <br>
+Minimum distance indicates predicted class label of the processed test sample. <br>
 
+You can see the distances to all classes and predicted class name on console screen.
+
+## HW-4
