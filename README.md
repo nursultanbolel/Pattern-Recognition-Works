@@ -42,4 +42,7 @@ Step 3: I used OneVsTestClassifier() function which is in sklearn to have 15 hyp
 You can see performance measures and classification of test sample in the pictures below from console screen:  
 ![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/HW-4/performance_measures.JPG) <br>
 ![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/HW-4/test_sample.JPG) <br>
+
+## HW-5
+
  
