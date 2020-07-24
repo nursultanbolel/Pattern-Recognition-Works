@@ -57,5 +57,24 @@ You can see performance measures and classification of test sample in the pictur
 
 ## TERM PROJECT(Classification Of Consumer Finance Complaints Using Information Gain)
 I tried to classify consumer finance complaints in one of my repositories using deep learning. You can reach [there](https://github.com/nursultanbolel/Classification-Of-Consumer-Finance-Complaints). <br>
+### Purpose of Project
 
+Classification of consumer's complaints from .csv file. It is simple text classification study. A sample output is shown below.
+
+![GitHub Logo](https://github.com/nursultanbolel/Classification-Of-Consumer-Finance-Complaints/blob/master/images/sample_output.PNG)
+
+### Dataset
+- Each week the CFPB sends thousands of consumers’ complaints about financial products and services to companies for response. Those complaints are published here after the company responds or after 15 days, whichever comes first. By adding their voice, consumers help improve the financial marketplace.
+
+- I used .csv file  you can find there [Kaggle](https://www.kaggle.com/cfpb/us-consumer-finance-complaints)
+
+- Information of .csv file is shown below in Spyder IDE.
+
+![GitHub Logo](https://github.com/nursultanbolel/Classification-Of-Consumer-Finance-Complaints/blob/master/images/dataframe_inf.png)
+
+- I used just two columns that are 'product' and 'consumer_complaint_narrative'. The aim is to predict the product according to consumer narrative.
+
+- 'product' was including 13 different values. I joined same department and then now it has 10 different value. These values' information is shown below.
+
+![GitHub Logo](https://github.com/nursultanbolel/Classification-Of-Consumer-Finance-Complaints/blob/master/images/product_inf.png)
 
