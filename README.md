@@ -32,3 +32,17 @@ Minimum distance indicates predicted class label of the processed test sample. <
 You can see the distances to all classes and predicted class name on console screen.
 
 ## HW-4
+I used SVM classifier to classify multi classes. Dataset is Caltech-101 that has 15 classes and each class has different number of samples. <br>
+You can find dataset in the repo as .rar file format. <br>
+The aim is to use SVM classifier, one-against-all methodology, in order to find different hyperplanes that is capable to separate classes. There are three basic steps: <br>
+Step 1: All images' size in the dataset is 128x128x3. I converted to a vector (1x49152). <br>
+Step 2: I extracted 512 HOG features from the images by using sklearn. After feature extraction the training data (1457x49152) are represented as (1457x512) matrix form. <br>
+Step 3: I used OneVsTestClassifier() function which is in sklearn to have 15 hyperlanes for train step.<br>
+
+You can see performance measures and classification of test sample in the pictures below from console screen:  
+![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/HW-4/performance_measures.JPG) <br>
+![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/HW-4/test_sample.JPG) <br>
+
+## HW-5
+
+ 
