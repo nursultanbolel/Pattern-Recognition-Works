@@ -56,4 +56,6 @@ You can see performance measures and classification of test sample in the pictur
 ![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/HW-5/test_sample.JPG) <br>
 
 ## TERM PROJECT(Classification Of Consumer Finance Complaints Using Information Gain)
-I tried to classify consumer finance complaints in one my repositories using deep learning. You can reach [there](https://github.com/nursultanbolel/Classification-Of-Consumer-Finance-Complaints). <br>
+I tried to classify consumer finance complaints in one of my repositories using deep learning. You can reach [there](https://github.com/nursultanbolel/Classification-Of-Consumer-Finance-Complaints). <br>
+
+
