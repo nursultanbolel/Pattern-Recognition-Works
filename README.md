@@ -95,3 +95,6 @@ Numbers, punctuations, special characters removed from complaints.
 
 We reduced the number of tokens by turning all of the complaints into lowercase letters.
 
+### Method
+In this project, I used Information Gain metric to find important words for text classification. I used 157865 lines text data for train and test model. Each complaint can be represented by the set of its words. But some words are more important and has more effect and more meaning. These words can be used for determining the context of a complaints.
+In this part, we tried to find a set of 200 words that are more informative for document classification.
