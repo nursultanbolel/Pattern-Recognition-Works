@@ -74,7 +74,7 @@ def extractFeatures(data):
     features = np.zeros( (data.shape[0],512), np.float32)
 
     #I used hog function to extract some meaningful features from image.
-    #All image in data is used as a parameter in hog function
+    #All image in data are used as a parameter in hog function
     #data includes images as vector, I converted this vectors to (128*128*3) format to use in hog function
     #hog function returns feature and output hog image
     #features is saved in features array
@@ -108,7 +108,6 @@ def predictClassifier(svm_model, x_test):
 
 #################################################################  
 
-    
 #step1: feature extraction for train data
 x_train_features = extractFeatures(x_train)  
 
