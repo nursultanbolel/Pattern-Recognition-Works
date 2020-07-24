@@ -48,7 +48,7 @@ In this homework I added feature selection step to the HW-4. <br>
 After feature selection, I chose more meaningful and rich features. I used scikit-learn library provides the SelectKBest class to select a specific number of features.I selected features according to the k highest scores. <br>
 * score_func: Chi-Squared
 * k: number of top features to select.
-* selected_features: holds indices of selected features
+* selected_features: holds indices of selected features <br>
 <code> test = SelectKBest(score_func=chi2, k=256) </code>
 
 You can see performance measures and classification of test sample in the pictures below from console screen:  
