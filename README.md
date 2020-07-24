@@ -36,7 +36,7 @@ I used SVM classifier to classify multi classes. Dataset is Caltech-101 that has
 You can find dataset in the repo as .rar file format. <br>
 The aim is to use SVM classifier, one-against-all methodology, in order to find different hyperplanes that is capable to separate classes. There are three basic steps: <br>
 Step 1: All images' size in the dataset is 128x128x3. I converted to a vector (1x49152). <br>
-Step 2: I extracted 512 HOG features from the images by using sklearn. After feature extraction the training data (1457x49152) are represented as (1457x512) matrix form. <br>
+Step 2: I extracted 512 HOG features from the images by using sklearn. After the feature extraction the training data (1457x49152) are represented as (1457x512) matrix form. <br>
 Step 3: I used OneVsTestClassifier() function which is in sklearn to have 15 hyperlanes for train step.<br>
 
 You can see performance measures and classification of test sample in the pictures below from console screen:  
@@ -44,5 +44,13 @@ You can see performance measures and classification of test sample in the pictur
 ![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/HW-4/test_sample.JPG) <br>
 
 ## HW-5
+In this homework I added feature selection step to the HW-4. <br>
+After feature selection, I chose more meaningful and rich features. I used scikit-learn library provides the SelectKBest class to select a specific number of features.I selected features according to the k highest scores. <br>
+* score_func: Chi-Squared
+* k: number of top features to select.
+* selected_features: holds indices of selected features
+<code> test = SelectKBest(score_func=chi2, k=256) </code>
 
- 
+You can see performance measures and classification of test sample in the pictures below from console screen:  
+![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/HW-5/performance_measures.JPG) <br>
+![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/HW-5/test_sample.JPG) <br>
