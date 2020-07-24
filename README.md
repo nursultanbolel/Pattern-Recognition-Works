@@ -78,3 +78,20 @@ Classification of consumer's complaints from .csv file. It is simple text classi
 
 ![GitHub Logo](https://github.com/nursultanbolel/Classification-Of-Consumer-Finance-Complaints/blob/master/images/product_inf.png)
 
+###### Splitting Dataset
+
+ I splited dataset for 90% training and 10% test data. 
+ 
+ ###### Preprocessing
+ 
+I found the words that don't change the classification. I added  these words to the STOPWORDS list so I reduced the number of tokens.
+
+ - ['bank', 'america', 'x/xx/xxxx', '00'] 
+
+Numbers, punctuations, special characters removed from complaints.
+
+- [^0-9a-z #+_]
+- [/(){}\[\]\|@,;] 
+
+We reduced the number of tokens by turning all of the complaints into lowercase letters.
+
