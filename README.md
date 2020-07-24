@@ -57,51 +57,7 @@ You can see performance measures and classification of test sample in the pictur
 
 ## TERM PROJECT(Classification Of Consumer Finance Complaints Using Information Gain)
 I tried to classify consumer finance complaints in one of my repositories using deep learning. You can reach [there](https://github.com/nursultanbolel/Classification-Of-Consumer-Finance-Complaints). <br>
-### Purpose of Project
 
-Classification of consumer's complaints from .csv file. It is simple text classification study. A sample output is shown below.
 
-![GitHub Logo](https://github.com/nursultanbolel/Classification-Of-Consumer-Finance-Complaints/blob/master/images/sample_output.PNG)
 
-### Dataset
-- Each week the CFPB sends thousands of consumers’ complaints about financial products and services to companies for response. Those complaints are published here after the company responds or after 15 days, whichever comes first. By adding their voice, consumers help improve the financial marketplace.
-
-- I used .csv file  you can find there [Kaggle](https://www.kaggle.com/cfpb/us-consumer-finance-complaints)
-
-- Information of .csv file is shown below in Spyder IDE.
-
-![GitHub Logo](https://github.com/nursultanbolel/Classification-Of-Consumer-Finance-Complaints/blob/master/images/dataframe_inf.png)
-
-- I used just two columns that are 'product' and 'consumer_complaint_narrative'. The aim is to predict the product according to consumer narrative.
-
-- 'product' was including 13 different values. I joined same department and then now it has 10 different value. These values' information is shown below.
-
-![GitHub Logo](https://github.com/nursultanbolel/Classification-Of-Consumer-Finance-Complaints/blob/master/images/product_inf.png)
-
-###### Splitting Dataset
-
- I splited dataset for 90% training and 10% test data. 
- 
- ###### Preprocessing
- 
-I found the words that don't change the classification. I added  these words to the STOPWORDS list so I reduced the number of tokens.
-
- - ['bank', 'america', 'x/xx/xxxx', '00'] 
-
-Numbers, punctuations, special characters removed from complaints.
-
-- [^0-9a-z #+_]
-- [/(){}\[\]\|@,;] 
-
-I reduced the number of tokens by turning all of the complaints into lowercase letters.
-
-### Method
-In this project, I used Information Gain metric to find important words for text classification. I used 157865 lines text data for train and test model. Each complaint can be represented by the set of its words. But some words are more important and has more effect and more meaning. These words can be used for determining the context of a complaints.
-In this part, I tried to find a set of 200 words that are more informative for document classification.<br>
-
-Information Gain Formula:
-![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/IG_formula.png)
-
-Selected Feature Set(top 10):
-![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/IG_top_10.png)
 
