@@ -61,10 +61,17 @@ I tried to classify consumer finance complaints in one of my repositories using 
 In this repository I tried to classify consumer finance complaints by calculating Information Gain. <br>
 
 ### PURPOSE
-Main aim is to classify consumers’ complaints about financial according to bank departments like mortgage, credit card …These complaints can be classified without any person and forwered to related bank employee. Classification of problems can help the employees to reduce complaint solving time. Classifying complaints is a problem of text classification In this project we used pattern recognition method to classify. <br>
+Main aim is to classify consumers’ complaints about financial according to bank departments like mortgage, credit card …These complaints can be classified without any person and forwered to related bank employee. Classification of problems can help the employees to reduce complaint solving time. Classifying complaints is a problem of text classification In this project I used pattern recognition method to classify. <br>
 
 ### DATASET
-Each week the CFPB sends thousands of consumers’ complaints about financial products and services to companies for response. Those complaints are published after the company responds or after 15 days, whichever comes first. By adding their voice, consumers help improve the financial marketplace. Some these complaints informations are published in kaggle as text data in .csv file format. We used this dataset. <br>
-- I used .csv file  you can find there [Kaggle](https://www.kaggle.com/cfpb/us-consumer-finance-complaints)
+Each week the CFPB sends thousands of consumers’ complaints about financial products and services to companies for response. Those complaints are published after the company responds or after 15 days, whichever comes first. By adding their voice, consumers help improve the financial marketplace. Some these complaints informations are published in kaggle as text data in .csv file format. I used this dataset that is a .csv file. You can find there [Kaggle](https://www.kaggle.com/cfpb/us-consumer-finance-complaints) <br>
+
+The dataset has 18 columns but I used just ‘product’ and ‘consumer_complaints_narrative’. Column ‘product’ holds department information and column ‘consumer_complaints_narrative’ holds complaints informations. ı used 157865 lines with consumer complaints. These columns are text format. My aim was to classify complaints according to department. You can see all columns and number of non-null lines at image below. <br>
+
+- Total number of lines: 777959
+- Number of lines with consumer complaints: 157865
+
+![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/dataFrame_information.png) <br>
+
 
 
