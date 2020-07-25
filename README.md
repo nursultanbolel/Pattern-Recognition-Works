@@ -129,4 +129,11 @@ I studied on laptop with following features at all steps
 - GPU: brand NVIDIA, model GeForce 840M, memory 4 GB
 
 I used Anaconda Spyder IDE
- 
+#packages in working  environment
+#Name__Version
+joblib__0.14.1
+numpy__1.18.1
+nltk __ 3.4.5
+pandas__1.0.3
+scikit-learn__0.22.1
+spyder__4.1.3
