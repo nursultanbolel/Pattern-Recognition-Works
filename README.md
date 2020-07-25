@@ -127,5 +127,6 @@ I studied on laptop with following features at all steps
 - CPU: model i7-4510U, speed 2.00 GHz, cache 4 MB  
 - Memory(RAM): memory 8 GB, frequency 1600 MHz, type DDR3L 
 - GPU: brand NVIDIA, model GeForce 840M, memory 4 GB
-•	I used Anaconda Spyder IDE
+
+I used Anaconda Spyder IDE
  
