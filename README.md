@@ -77,5 +77,7 @@ Product column had more than10 classes and value count of classes are not equel.
 
 ![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/product_value_count.png) <br>
 
+I wrote prepareDataset.py to join related columns, select needen two columns, shuffle and split dataset. You can see dataframe head information at image below. The dataframe has two columns and 157865 non empty lines. I suffled and then splited the dataset for train 90% for test 10%.
 
+![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/product_value_count.png) <br>
 
