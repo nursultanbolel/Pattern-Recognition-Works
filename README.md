@@ -81,3 +81,19 @@ I wrote prepareDataset.py to join related columns, select needen two columns, sh
 
 ![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/dataFrame_head.png) <br>
 
+### METHOD
+I used Information Gain metric to find important words for text classification. ı used 157865 lines text data for train and test model. Each complaint can be represented by the set of its words. But some words are more important and has more effect and more meaning. These words can be used for determining the context of a complaints.
+In this part, I tried to find a set of 200 words that are more informative for document classification. <br>
+
+###### Step 1: Preprocessing
+Most complaints have stopwords and these words do not effect classification. I removed this words. I used nltk python library for stopword list. I also added some words stopwords list like ‘bank’ and ‘america’. I removed all numbers, punctions and  special characters. I convert all text to lowercase to reduce number of words. 
+
+###### Step 1: Information Gain Metric
+The dataset has 88146 different words, 13771601 tokens at 142078 lines. You can see informations about vocab size, number of tokens, documents and classes at image below. I calculated information gain metric for 88146 words. 
+
+![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/document_informations.png) <br>
+
+You can see Information Gain formula at image below. <br>
+
+![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/IG_formula.png) <br>
+
