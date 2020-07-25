@@ -123,9 +123,9 @@ In my opinion when I add some lines for Class7,Class8 and Class9 to train datase
 ![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/class_info.png) <br>
 
 ### SETUP
-- I studied on laptop with following features at all steps 
- - CPU: model i7-4510U, speed 2.00 GHz, cache 4 MB 
- - Memory(RAM): memory 8 GB, frequency 1600 MHz, type DDR3L 
- - GPU: brand NVIDIA, model GeForce 840M, memory 4 GB
-
+I studied on laptop with following features at all steps 
+- CPU: model i7-4510U, speed 2.00 GHz, cache 4 MB  
+- Memory(RAM): memory 8 GB, frequency 1600 MHz, type DDR3L 
+- GPU: brand NVIDIA, model GeForce 840M, memory 4 GB
+•	I used Anaconda Spyder IDE
  
