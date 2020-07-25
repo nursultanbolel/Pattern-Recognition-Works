@@ -60,3 +60,11 @@ I tried to classify consumer finance complaints in one of my repositories using 
 
 In this repository I tried to classify consumer finance complaints by calculating Information Gain. <br>
 
+### PURPOSE
+Main aim is to classify consumers’ complaints about financial according to bank departments like mortgage, credit card …These complaints can be classified without any person and forwered to related bank employee. Classification of problems can help the employees to reduce complaint solving time. Classifying complaints is a problem of text classification In this project we used pattern recognition method to classify. <br>
+
+### DATASET
+Each week the CFPB sends thousands of consumers’ complaints about financial products and services to companies for response. Those complaints are published after the company responds or after 15 days, whichever comes first. By adding their voice, consumers help improve the financial marketplace. Some these complaints informations are published in kaggle as text data in .csv file format. We used this dataset. <br>
+- I used .csv file  you can find there [Kaggle](https://www.kaggle.com/cfpb/us-consumer-finance-complaints)
+
+
