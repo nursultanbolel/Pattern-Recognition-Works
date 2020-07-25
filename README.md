@@ -73,5 +73,9 @@ The dataset has 18 columns but I used just ‘product’ and ‘consumer_complai
 
 ![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/dataFrame_information.png) <br>
 
+Product column had more than10 classes and value count of classes are not equel. Before training step I joined some related classes like ‘Credit card’ -‘Prepaid card’ and I joined ‘Virtual currency’ – ‘Other financial service’ has few lines. You can see class names and number of data lines at image below. <br>
+
+![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/product_value_count.png) <br>
+
 
 
