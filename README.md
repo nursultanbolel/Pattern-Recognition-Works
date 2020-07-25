@@ -58,6 +58,5 @@ You can see performance measures and classification of test sample in the pictur
 ## TERM PROJECT(Classification Of Consumer Finance Complaints Using Information Gain)
 I tried to classify consumer finance complaints in one of my repositories using deep learning. You can reach [there](https://github.com/nursultanbolel/Classification-Of-Consumer-Finance-Complaints). <br>
 
-
-
+In this repository I tried to classify consumer finance complaints by calculating Information Gain. <br>
 
