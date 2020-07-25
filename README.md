@@ -131,9 +131,9 @@ I studied on laptop with following features at all steps
 I used Anaconda Spyder IDE
 #packages in working  environment
 #Name__Version
-joblib__0.14.1 <br>
-numpy__1.18.1 <br>
-nltk __ 3.4.5 <br>
-pandas__1.0.3 <br>
-scikit-learn__0.22.1 <br>
-spyder__4.1.3 <br>
+- joblib__0.14.1 <br>
+- numpy__1.18.1 <br>
+- nltk __ 3.4.5 <br>
+- pandas__1.0.3 <br>
+- scikit-learn__0.22.1 <br>
+- spyder__4.1.3 <br>
