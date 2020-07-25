@@ -88,7 +88,7 @@ In this part, I tried to find a set of 200 words that are more informative for d
 ###### Step 1: Preprocessing
 Most complaints have stopwords and these words do not effect classification. I removed this words. I used nltk python library for stopword list. I also added some words stopwords list like ‘bank’ and ‘america’. I removed all numbers, punctions and  special characters. I convert all text to lowercase to reduce number of words. 
 
-###### Step 1: Information Gain Metric
+###### Step 2: Information Gain Metric
 The dataset has 88146 different words, 13771601 tokens at 142078 lines. You can see informations about vocab size, number of tokens, documents and classes at image below. I calculated information gain metric for 88146 words. 
 
 ![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/document_informations.png) <br>
@@ -97,3 +97,27 @@ You can see Information Gain formula at image below. <br>
 
 ![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/IG_formula.png) <br>
 
+I selected 200 words with the highest information gain value as a fature set. You can see top 10 features has highest information gain value at image below. Before training step I converted all complaints text to numbers using informain gains values.
+
+![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/featureSet_top_10.png) <br>
+
+###### Step 3: Train(SVM Model)
+I trained my model with the dataset by SVM from sklearn with  K-fold = 5. You can see results about accuracy values for each fold at image below. Almost every fold has same accuracy value.
+
+![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/svm_model_acc.png) <br>
+
+###### Step 4: Testing Model(SVM Model)
+I gave some examples to the SVM model. You can see two given complaints and about expected and pretrained classes informations at image below. In both complaints SVM model trully predicted.
+
+![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/sample_test.png) <br>
+
+### PERFORMANCE MEASURES
+I splitted 10% of the dataset for testing. You can see precision, recall and f-1-score values and support value means number of lines belong to each class at image below. This figure shows the SVM model’s accuracy equals to 81% for 10 classes. 
+
+![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/performance_measures.png) <br>
+
+I calculated TPR, FPR , accuracy  and ROC curve for each class, you can see values as a table at image below. The SVM model accuracy is 81%. This value is good generally. But I reliased that each class has very different accuracy value. Class6(Mortgage)’s accuracy is 95% and Class9(Other financial service)’s acuracy is 50%. The reason for this is probably all classes have different number of lines. ‘Other financial service’ has just 288 lines in train dataset  and ‘Mortagage’ has 32000 lines in train dataset . At the same time Class7 and Class 8 accuracy values are lower than 70% because of the same reason.
+In my opinion when I add some lines for Class7,Class8 and Class9 to train dataset I will get better accuracy for these three classes. 
+
+![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/classes_acc.PNG) <br>
+![GitHub Logo](https://github.com/nursultanbolel/Pattern-Recognition-Works/blob/master/TermProject/images/class_info.png) <br>
