@@ -1,4 +1,4 @@
-# Pattern-Recognition-Works
+# Pattern-Recognition-Homeworks
 includes basic pattern recognition works
 
 All homeworks directory include description which is .pdf file.
